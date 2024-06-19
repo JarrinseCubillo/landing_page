@@ -1,0 +1,94 @@
+.navbar-inverse {
+    background-color: #2c3e50;
+    border-color: #080808;
+}
+
+a.navbar-brand {
+    font-size: 40px;
+    margin: -9px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>.active>a,#navbar > ul > li > a:hover,body > nav > div > div.navbar-header > a > i {
+    color: #1abc9c;
+}
+
+.jumbotron {
+    background-color: #1abc9c;
+}
+#avatar {
+    width: 300px;
+    margin: 10px 0px 0px 410px;
+}
+
+h2.text-center,p.text-center {
+    color: #fff;
+}
+.estrella_bold {
+    width: 250px;
+    margin: -20px 0px 10px 14px;
+}
+
+.spinner{
+    height: 320px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #fff;
+    display: flex;
+    align-items: flex-end;
+    animation:rotate 6s linear infinite;
+}
+
+.img-responsive.pedro-img{
+    object-fit: contain;
+    transform: translateY(10%);
+    animation: jump 0.2s linear alternate infinite;
+}
+
+h1#acerca{
+    color:#fff;
+    font-size: 36px;
+}
+
+textarea {
+    resize: none;
+}
+
+#btnContacto {
+    background: #1abc9c;
+    border: #1abc9c;
+}
+
+.footer-bs {
+    background-color: #1a252f;
+    padding: 30px 40px;
+    margin-bottom: 20px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 6px;
+}
+
+#fecha {
+    color: #fff;
+    margin-left: 45%;
+}
+@keyframes rotate {
+ from{
+     transform: rotate(0deg);
+ }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes jump {
+    from{
+        transform: translateY(20%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+}
